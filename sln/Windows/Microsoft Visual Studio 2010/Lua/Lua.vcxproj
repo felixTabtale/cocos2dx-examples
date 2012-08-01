@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lapi.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lauxlib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lbaselib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lcode.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ldblib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ldebug.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ldo.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ldump.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lfunc.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lgc.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\linit.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\liolib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\llex.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lmathlib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lmem.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\loadlib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lobject.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lopcodes.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\loslib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lparser.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lstate.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lstring.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lstrlib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ltable.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ltablib.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\ltm.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lua.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lundump.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lvm.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\lzio.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\lua\print.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\tolua\tolua_event.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\tolua\tolua_is.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\tolua\tolua_map.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\tolua\tolua_push.c" />
+    <ClCompile Include="..\..\..\..\src\ThirdParty\tolua\tolua_to.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lapi.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lauxlib.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lcode.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\ldebug.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\ldo.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lfunc.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lgc.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\llex.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\llimits.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lmem.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lobject.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lopcodes.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lparser.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lstate.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lstring.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\ltable.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\ltm.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lua.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\luaconf.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lualib.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lundump.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lvm.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\lua\lzio.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\tolua\tolua++.h" />
+    <ClInclude Include="..\..\..\..\src\ThirdParty\tolua\tolua_event.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDC3E27F-004D-4DD4-9DD3-931A013D2159}</ProjectGuid>
+    <RootNamespace>liblua</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\lib\Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\obj\Windows\Microsoft Visual Studio 2010\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\lib\Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\obj\Windows\Microsoft Visual Studio 2010\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\src\ThirdParty\tolua;..\..\..\..\src\ThirdParty\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\..\src\ThirdParty\tolua;..\..\..\..\src\ThirdParty\lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;LIBLUA_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcocos2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

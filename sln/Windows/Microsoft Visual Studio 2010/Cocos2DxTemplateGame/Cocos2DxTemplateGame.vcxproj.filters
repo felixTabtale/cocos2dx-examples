@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{fb352270-8956-4d2c-bffc-df652f3c7bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{1ede84cc-84a9-4dd3-82d8-0f6c271a5373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Resources">
+      <UniqueIdentifier>{e6aad317-f7b1-4268-8e85-edf547886559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Application">
+      <UniqueIdentifier>{0364f605-1c80-425f-890a-20d04d01081e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{a4e19de0-e78b-4d68-9007-ba395fabe366}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\Cocos2DxTemplateGame\Platform\Win32\main.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\Cocos2DxTemplateGame\Platform\Win32\resource.h">
+      <Filter>Platform\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Application\AppDelegate.h">
+      <Filter>Game\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Scenes\GameOverScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Scenes\HelloWorldScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\Cocos2DxTemplateGame\Platform\Win32\main.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Application\AppDelegate.cpp">
+      <Filter>Game\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Scenes\GameOverScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Cocos2DxTemplateGame\Game\Scenes\HelloWorldScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\src\Cocos2DxTemplateGame\Platform\Win32\Cocos2DxTemplateGame.rc">
+      <Filter>Platform\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\Cocos2DxTemplateGame\Platform\Win32\Win32Resources\Cocos2DxTemplateGame.ico">
+      <Filter>Platform\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
